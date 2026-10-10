@@ -1,0 +1,9 @@
+model,cv_rmsle,holdout_rmsle,best_params
+Stack,,0.3181793346472676,tree+RF+GBM -> linear meta (log space)
+GBM (Hist),0.2728341570262855,0.32041423171850675,"{""reg__regressor__learning_rate"": 0.1, ""reg__regressor__max_iter"": 800, ""reg__regressor__max_leaf_nodes"": 15}"
+Random Forest,0.2987867130280262,0.33392699011186466,"{""reg__regressor__max_features"": 0.7, ""reg__regressor__min_samples_leaf"": 1}"
+SVR (RBF),0.3083865226380973,0.3555156733304471,"{""reg__regressor__C"": 10, ""reg__regressor__epsilon"": 0.1}"
+Decision Tree,0.3582105817330185,0.38685835513387434,"{""reg__regressor__max_depth"": null, ""reg__regressor__min_samples_leaf"": 5}"
+Linear,0.511508485975033,0.5093088823168583,{}
+Poisson GLM,0.5555576619024061,0.5322433632444836,"{""reg__alpha"": 0.0001}"
+PCR,0.9442500573430962,0.9838360930681,"{""reg__regressor__pca__n_components"": 30}"

@@ -1,0 +1,8 @@
+{
+  "month_for_season": true,
+  "add_dow": true,
+  "drop_temp": false,
+  "drop_holiday": true,
+  "peak_hours": true,
+  "discretize": true
+}
